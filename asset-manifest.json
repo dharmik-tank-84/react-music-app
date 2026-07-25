@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-music-app/static/css/main.6912ac65.css",
-    "main.js": "/react-music-app/static/js/main.31d55030.js",
+    "main.js": "/react-music-app/static/js/main.e4600a28.js",
     "static/media/b4.jpg": "/react-music-app/static/media/b4.2ca10ec3b4e0eec0788d.jpg",
     "static/media/slick.svg": "/react-music-app/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/react-music-app/static/media/slick.a4e97f5a2a64f0ab1323.eot",
@@ -9,10 +9,10 @@
     "static/media/slick.woff": "/react-music-app/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/react-music-app/index.html",
     "main.6912ac65.css.map": "/react-music-app/static/css/main.6912ac65.css.map",
-    "main.31d55030.js.map": "/react-music-app/static/js/main.31d55030.js.map"
+    "main.e4600a28.js.map": "/react-music-app/static/js/main.e4600a28.js.map"
   },
   "entrypoints": [
     "static/css/main.6912ac65.css",
-    "static/js/main.31d55030.js"
+    "static/js/main.e4600a28.js"
   ]
 }
