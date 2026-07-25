@@ -1,12 +1,21 @@
-import { Artist, Browse, Browser, Charts, Header, Home, Layout, LayoutSidebar } from "./router"
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
+import {
+  Artist,
+  Browse,
+  Browser,
+  Charts,
+  Header,
+  Home,
+  Layout,
+  LayoutSidebar,
+} from "./router";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <Router>
       <Routes>
         <Route
-          path='/'
+          path="/"
           element={
             <Layout>
               <Home />
@@ -14,7 +23,7 @@ function App() {
           }
         />
         <Route
-          path='/browser'
+          path="/browser"
           element={
             <Layout>
               <Browser />
@@ -22,7 +31,7 @@ function App() {
           }
         />
         <Route
-          path='/charts'
+          path="/charts"
           element={
             <Layout>
               <Charts />
@@ -30,7 +39,7 @@ function App() {
           }
         />
         <Route
-          path='/artists'
+          path="/artists"
           element={
             <Layout>
               <Artist />
@@ -39,7 +48,7 @@ function App() {
         />
       </Routes>
     </Router>
-  )
+  );
 }
 
-export default App
+export default App;
